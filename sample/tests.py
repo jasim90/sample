@@ -14,3 +14,6 @@ class PersonTestCase(TestCase):
 
     def test_person(self):
         name = Person.objects.get(first_name="Test")
+
+    def test_function_for_fabric(self):
+    	pass
